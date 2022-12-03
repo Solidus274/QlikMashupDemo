@@ -21,6 +21,7 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('1b32f30d-d1aa-4241-a962-1fbb1b797c85', config);
 
 	//get objects -- inserted here --
+	app.getObject("currSelections", "CurrentSelections");
 	app.getObject('QV01','qZPdytp');
 	app.visualization.create(
             'piechart',
@@ -93,6 +94,6 @@ require( ["js/qlik"], function ( qlik ) {
             vis.show("QV02");
             console.log("Contents of vis:", vis);
           });
-	app.getObject("currSelections", "CurrentSelections");
+	
 
 } );
