@@ -93,5 +93,6 @@ require( ["js/qlik"], function ( qlik ) {
             vis.show("QV02");
             console.log("Contents of vis:", vis);
           });
+	app.getObject("currSelections", "CurrentSelections");
 
 } );
