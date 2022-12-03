@@ -1,0 +1,13 @@
+{
+	"type": "mashup",
+	"name": "QlikSenseEmbedMaterial",
+	"description": "Example of Qlik Sense embedding options in a Material Design template",
+	"version": "1.0.0",
+	"author": "Dave Channon",
+	"homepage": "https://github.com/withdave/qlik-sense-embed-material",
+	"keywords": "qlik-sense, visualization, mashup",
+	"repository": "https://github.com/withdave/qlik-sense-embed-material",
+	"dependencies": {
+		"qlik-sense": ">=3.2.x"
+	}
+}

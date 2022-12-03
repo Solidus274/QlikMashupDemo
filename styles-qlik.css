@@ -1,0 +1,27 @@
+.chart-object {
+    height: 300px;
+    border: 1px dashed blue;
+  }
+  
+  .current-selections-container {
+    position: fixed;
+    width: 100%;
+  }
+
+  .spacer {
+    height: 35px; 
+  }
+
+  #button-open-qlik {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+  }
+
+  .demo-content p {
+      margin: 0;
+  }
